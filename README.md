@@ -9,39 +9,6 @@ Sistema que implementa algoritmos de busca em grafos com geração procedural de
 - **Busca Gulosa** - Foco no objetivo usando heurística agressiva
 - **A* (A-Estrela)** - Balanceamento ótimo entre custo real e estimativa
 
-## 📊 Análise Completa dos Algoritmos
-
-### Resumo Geral dos Algoritmos
-
-| **Categoria** | **Quantidade** | **Algoritmos** |
-|---------------|----------------|----------------|
-| **Algoritmos de Busca** | 4 | BFS, DFS, Busca Gulosa, A* |
-| **Algoritmos de Geração Procedural** | 2 | DFS Recursivo, Perlin Noise |
-| **Algoritmos de Validação** | 3 | Flood Fill, BFS (conectividade), BFS (caminho garantido) |
-| **Algoritmos de Análise** | 4 | Distância Manhattan, Euclidiana, Heurísticas Combinadas, Análise Comparativa |
-| **Algoritmos Auxiliares** | 2 | Cache de Distâncias, Sistema de Distribuição de Recompensas |
-| **TOTAL** | **15 algoritmos** | |
-
-### Tabela Detalhada de Todos os Algoritmos
-
-| **Algoritmo** | **Arquivo** | **Categoria** | **Função Principal** |
-|---------------|-------------|---------------|---------------------|
-| **BFS** | `search_algorithms.py` | Busca | Exploração sistemática nível por nível |
-| **DFS** | `search_algorithms.py` | Busca | Exploração em profundidade |
-| **Busca Gulosa** | `search_algorithms.py` | Busca | Escolha baseada em heurística |
-| **A*** | `search_algorithms.py` | Busca | Otimização g(n) + h(n) |
-| **DFS Recursivo** | `maze_generator.py` | Geração | Criação de labirintos |
-| **Perlin Noise** | `biome_generator.py` | Geração | Distribuição natural de terrenos |
-| **Flood Fill** | `maze_generator.py` | Validação | Detecção de áreas isoladas |
-| **BFS Conectividade** | `graph.py` | Validação | Verificação de grafo conectado |
-| **BFS Caminho** | `graph.py` | Validação | Garantia de solvabilidade |
-| **Distância Manhattan** | `heuristics.py` | Análise | Heurística básica de distância |
-| **Distância Euclidiana** | `heuristics.py` | Análise | Heurística precisa de distância |
-| **Heurística Combinada** | `heuristics.py` | Análise | Combinação de múltiplos fatores |
-| **Análise Comparativa** | `results.py` | Análise | Sistema de métricas e ranking |
-| **Cache de Distâncias** | `heuristics.py` | Auxiliar | Otimização de performance |
-| **Distribuição de Recompensas** | `graph.py` | Auxiliar | Criação de objetivos estratégicos |
-
 ## Estrutura do Projeto
 
 ```
