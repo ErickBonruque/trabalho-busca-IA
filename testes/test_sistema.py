@@ -267,7 +267,7 @@ def executar_teste_completo():
 
 def executar_demo_teste():
     """Executa demonstração rápida do sistema funcionando"""
-    print("\n🎬 DEMONSTRAÇÃO DO SISTEMA")
+    print("\n DEMONSTRAÇÃO DO SISTEMA")
     print("="*40)
     
     try:
@@ -275,8 +275,8 @@ def executar_demo_teste():
         print("1. Gerando ambiente...")
         grafo = gerar_grafo_teste()
         no_inicial, no_objetivo = escolher_nos_aleatorios(grafo)
-        print(f"   ✅ Ambiente: {len(grafo.nos)} nós")
-        print(f"   ✅ Rota: ({no_inicial.x},{no_inicial.y}) → ({no_objetivo.x},{no_objetivo.y})")
+        print(f"Ambiente: {len(grafo.nos)} nós")
+        print(f"Rota: ({no_inicial.x},{no_inicial.y}) → ({no_objetivo.x},{no_objetivo.y})")
         
         # Executa algoritmos
         print("\n2. Executando algoritmos...")
@@ -285,7 +285,7 @@ def executar_demo_teste():
         # Mostra resultados resumidos
         print("\n3. Resultados:")
         for nome, resultado in resultados.items():
-            status = "✅" if resultado.sucesso else "❌"
+            status = "OK" if resultado.sucesso else "[X]"
             custo = f"{resultado.custo_total:.1f}" if resultado.sucesso else "N/A"
             print(f"   {status} {nome:<8}: Custo={custo}, Nós={resultado.nos_expandidos}")
         
@@ -297,13 +297,13 @@ def executar_demo_teste():
             comparativo.adicionar_resultado(resultado)
         
         melhor = comparativo.obter_melhor_algoritmo()
-        print(f"   ✅ Melhor algoritmo: {melhor}")
+        print(f"Melhor algoritmo: {melhor}")
         
-        print("\n🎉 DEMONSTRAÇÃO CONCLUÍDA COM SUCESSO!")
+        print("\n DEMONSTRAÇÃO CONCLUÍDA COM SUCESSO!")
         return True
         
     except Exception as e:
-        print(f"\n❌ ERRO NA DEMONSTRAÇÃO: {e}")
+        print(f"\n ERRO NA DEMONSTRAÇÃO: {e}")
         traceback.print_exc()
         return False
 
@@ -324,13 +324,13 @@ if __name__ == "__main__":
         if sucesso_testes:
             sucesso = executar_demo_teste()
         else:
-            print("\n⚠️  Pulando demonstração devido a falhas nos testes")
+            print("\n Pulando demonstração devido a falhas nos testes")
             sucesso = False
     
     # Status final
     if sucesso:
-        print(f"\n🎯 SISTEMA VALIDADO E FUNCIONANDO!")
+        print(f"\n SISTEMA VALIDADO E FUNCIONANDO!")
         sys.exit(0)
     else:
-        print(f"\n❌ SISTEMA COM PROBLEMAS - VERIFICAR IMPLEMENTAÇÃO")
+        print(f"\n SISTEMA COM PROBLEMAS - VERIFICAR IMPLEMENTAÇÃO")
         sys.exit(1)

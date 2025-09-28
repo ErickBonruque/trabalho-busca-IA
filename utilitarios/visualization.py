@@ -156,7 +156,7 @@ def simular_movimento(grafo, agente, caminho, velocidade=1.0, mostrar_stats=True
         if i < len(caminho) - 1:  # Não pausa no último passo
             time.sleep(velocidade)
     
-    print(f"\n🎯 OBJETIVO ALCANÇADO!")
+    print(f"\n OBJETIVO ALCANÇADO!")
     print(f"Custo Final: {agente.custo_acumulado}")
     print(f"Recompensas: {len(agente.recompensas_coletadas)}")
 
