@@ -311,4 +311,4 @@ def testar_algoritmos_basicos():
 
 ---
 
-*Sistema desenvolvido para disciplina de **Inteligência Artificial** - Implementação completa e funcional pronta para apresentação acadêmica.*
+*Sistema desenvolvido para disciplina de **Inteligência Artificial**
