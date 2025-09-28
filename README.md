@@ -94,7 +94,7 @@ Resultados dos Algoritmos:
 
 ---
 
-# DOCUMENTAÇÃO TÉCNICA DETALHADA
+# DOCUMENTAÇÃO
 
 ## Arquitetura do Sistema
 

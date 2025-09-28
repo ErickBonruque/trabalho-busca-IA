@@ -38,7 +38,7 @@ def inicializar_ambiente():
     Returns:
         tuple: (grafo, no_inicial, no_objetivo, agente)
     """
-    print("Gerando labirinto avancado com biomas...")
+    print("Gerando labirinto com biomas...")
     
     # Gera grafo avançado com labirinto e biomas
     resultado = gerar_grafo_labirinto_com_biomas(
