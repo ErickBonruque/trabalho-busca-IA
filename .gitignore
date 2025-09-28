@@ -1,0 +1,63 @@
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição/pacotes
+*.egg-info/
+dist/
+build/
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Arquivos de sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de teste temporários
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos específicos do projeto
+resultados/*.txt.bak
+*.pyc.bak
+
+# Arquivos de dados temporários
+*.csv.bak
+*.json.bak
