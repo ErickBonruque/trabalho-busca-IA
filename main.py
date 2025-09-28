@@ -24,8 +24,8 @@ def exibir_banner():
 ║                      Trabalho Acadêmico                      ║
 ║                    Inteligência Artificial                   ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Implementa e compara: BFS, DFS, Busca Gulosa e A*         ║
-║  Com suporte a terrenos variados e coleta de recompensas    ║
+║  Implementa e compara: BFS, DFS, Busca Gulosa e A*           ║
+║  Com suporte a terrenos variados e coleta de recompensas     ║
 ╚══════════════════════════════════════════════════════════════╝
 """
     print(banner)
